@@ -24,9 +24,9 @@
 
 Para iniciar o jogo, execute o script `Mestre_das_Serpentes.py`:
 
-    ```sh
+
     python Mestre_das_Serpentes.py
-    ```
+
 
 ## Controles
 
