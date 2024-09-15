@@ -69,9 +69,17 @@ def jogo():
     while not sair_jogo:
         while fim_jogo:
             tela.fill(preto)
-            mensagem_fim = fonte.render("Fim de jogo! Pressione C para continuar ou Q para sair", True, vermelho)
-            tela.blit(mensagem_fim, [largura // 10, altura // 3])
+            
+            # Mensagens divididas em duas linhas
+            mensagem_fim_1 = fonte.render("Fim de jogo!", True, vermelho)
+            mensagem_fim_2 = fonte.render("Pressione C para continuar ou Q para sair", True, vermelho)
+            
+            # Exibe cada linha em uma posição diferente
+            tela.blit(mensagem_fim_1, [largura // 4, altura // 3])
+            tela.blit(mensagem_fim_2, [largura // 10, altura // 2])
+            
             pygame.display.update()
+
 
             for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
