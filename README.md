@@ -1,6 +1,6 @@
 # Mestre das Serpentes
 
-"Mestre das Serpentes" é um jogo clássico da cobra onde o jogador controla uma cobra que cresce ao comer comida. O objetivo é evitar colisões com as bordas da tela e com o próprio corpo da cobra para obter a maior pontuação possível.
+"Mestre das Serpentes" é um jogo clássico da cobra onde o jogador controla uma cobra que cresce ao comer comida. O objetivo é evitar colisões com as bordas da tela e com o próprio corpo da cobra para obter a maior pontuação possível. Este jogo foi criado para a disciplina de Programação de Computadores.
 
 ## Requisitos
 
@@ -11,7 +11,7 @@
 
 1. **Clone o repositório**:
     ```sh
-    git clone <URL_DO_REPOSITORIO>
+    git clone <https://github.com/Sara-Xavier/Mestre_das_Serpentes/tree/main>
     cd Mestre_das_Serpentes
     ```
 
@@ -54,24 +54,7 @@ O código está estruturado da seguinte forma:
   - `exibir_menu()`: Exibe a tela de menu do jogo.
   - `jogo()`: Função principal que gerencia a lógica do jogo, movimentação da cobra, detecção de colisões e renderização.
 
-## Exemplos de Uso
 
-Para alterar a imagem da comida, substitua o caminho do arquivo na linha onde o sprite da comida é carregado:
 
-    ```python
-    sprite_comida = pygame.image.load('C:/caminho/para/seu/sprite.png')
-    ```
 
-Certifique-se de que o arquivo da imagem está no formato correto e que o caminho está correto.
 
-## Contribuições
-
-Sinta-se à vontade para contribuir com melhorias ou correções. Abra um *issue* ou envie um *pull request*.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-## Contato
-
-Para dúvidas ou sugestões, entre em contato com [Seu Nome](mailto:seu.email@example.com).
